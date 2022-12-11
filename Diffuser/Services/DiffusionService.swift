@@ -81,27 +81,3 @@ extension DiffusionService: TestDependencyKey {
     )
 }
 #endif
-
-extension AsyncStream {
-    public func map<Transformed>(_ transform: @escaping (Self.Element) -> Transformed) -> AsyncStream<Transformed> {
-        return AsyncStream<Transformed> { continuation in
-            Task {
-                for await element in self {
-                    continuation.yield(transform(element))
-                }
-                continuation.finish()
-            }
-        }
-    }
-
-    public func map<Transformed>(_ transform: @escaping (Self.Element) async -> Transformed) -> AsyncStream<Transformed> {
-        return AsyncStream<Transformed> { continuation in
-            Task {
-                for await element in self {
-                    continuation.yield(await transform(element))
-                }
-                continuation.finish()
-            }
-        }
-    }
-}
