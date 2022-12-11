@@ -11,7 +11,7 @@ import SwiftUI
 struct DiffuserApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppView(store: .init(initialState: .init(), reducer: Diffuser()))
         }
     }
 }

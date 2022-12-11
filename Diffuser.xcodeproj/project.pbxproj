@@ -8,18 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		0E2515C8293C0873005A5C4F /* DiffuserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2515C7293C0873005A5C4F /* DiffuserApp.swift */; };
-		0E2515CA293C0873005A5C4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2515C9293C0873005A5C4F /* ContentView.swift */; };
 		0E2515CC293C0874005A5C4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E2515CB293C0874005A5C4F /* Assets.xcassets */; };
 		0E2515D0293C0874005A5C4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E2515CF293C0874005A5C4F /* Preview Assets.xcassets */; };
+		0E25EBF2293F58FE009017B4 /* StableDiffusion in Frameworks */ = {isa = PBXBuildFile; productRef = 0E25EBF1293F58FE009017B4 /* StableDiffusion */; };
+		0E33F6C4293D0BF6002F1177 /* MLModels in Resources */ = {isa = PBXBuildFile; fileRef = 0E33F6C3293D0BF6002F1177 /* MLModels */; };
+		0E99AF47293C09FD00A844FD /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 0E99AF46293C09FD00A844FD /* ComposableArchitecture */; };
+		0E99AF49293C09FD00A844FD /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = 0E99AF48293C09FD00A844FD /* Dependencies */; };
+		0E99AF4C293C0A2B00A844FD /* TwitterAPIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0E99AF4B293C0A2B00A844FD /* TwitterAPIKit */; };
+		0E99AF4E293C0A4300A844FD /* DiffusionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E99AF4D293C0A4300A844FD /* DiffusionService.swift */; };
+		0E99AF50293C0A4F00A844FD /* ArticlesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E99AF4F293C0A4F00A844FD /* ArticlesService.swift */; };
+		0E99AF5F293C0B8800A844FD /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E99AF57293C0B8800A844FD /* AppView.swift */; };
+		0E99AF64293C0B8800A844FD /* AppCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E99AF5E293C0B8800A844FD /* AppCore.swift */; };
+		0E99AF83293C2A7000A844FD /* ArticlesListCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E99AF82293C2A7000A844FD /* ArticlesListCore.swift */; };
+		0E99AF85293C2A7F00A844FD /* ArticlesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E99AF84293C2A7F00A844FD /* ArticlesListView.swift */; };
+		0E99AF87293C2A8800A844FD /* ArticleDetailsCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E99AF86293C2A8800A844FD /* ArticleDetailsCore.swift */; };
+		0E99AF89293C2AC700A844FD /* ArticleDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E99AF88293C2AC700A844FD /* ArticleDetailsView.swift */; };
+		0E99AF9D293CB62D00A844FD /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = 0E99AF9C293CB62D00A844FD /* Logging */; };
+		0EBE88E62945E715005E811C /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 0EBE88E52945E715005E811C /* CachedAsyncImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E2515C4293C0873005A5C4F /* Diffuser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diffuser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E2515C7293C0873005A5C4F /* DiffuserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffuserApp.swift; sourceTree = "<group>"; };
-		0E2515C9293C0873005A5C4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0E2515CB293C0874005A5C4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E2515CD293C0874005A5C4F /* Diffuser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Diffuser.entitlements; sourceTree = "<group>"; };
 		0E2515CF293C0874005A5C4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E33F6C3293D0BF6002F1177 /* MLModels */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MLModels; sourceTree = "<group>"; };
+		0E99AF4D293C0A4300A844FD /* DiffusionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiffusionService.swift; sourceTree = "<group>"; };
+		0E99AF4F293C0A4F00A844FD /* ArticlesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesService.swift; sourceTree = "<group>"; };
+		0E99AF57293C0B8800A844FD /* AppView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		0E99AF5E293C0B8800A844FD /* AppCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCore.swift; sourceTree = "<group>"; };
+		0E99AF82293C2A7000A844FD /* ArticlesListCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesListCore.swift; sourceTree = "<group>"; };
+		0E99AF84293C2A7F00A844FD /* ArticlesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesListView.swift; sourceTree = "<group>"; };
+		0E99AF86293C2A8800A844FD /* ArticleDetailsCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailsCore.swift; sourceTree = "<group>"; };
+		0E99AF88293C2AC700A844FD /* ArticleDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +49,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E99AF9D293CB62D00A844FD /* Logging in Frameworks */,
+				0E99AF49293C09FD00A844FD /* Dependencies in Frameworks */,
+				0E99AF47293C09FD00A844FD /* ComposableArchitecture in Frameworks */,
+				0EBE88E62945E715005E811C /* CachedAsyncImage in Frameworks */,
+				0E99AF4C293C0A2B00A844FD /* TwitterAPIKit in Frameworks */,
+				0E25EBF2293F58FE009017B4 /* StableDiffusion in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +64,7 @@
 		0E2515BB293C0873005A5C4F = {
 			isa = PBXGroup;
 			children = (
+				0E33F6C3293D0BF6002F1177 /* MLModels */,
 				0E2515C6293C0873005A5C4F /* Diffuser */,
 				0E2515C5293C0873005A5C4F /* Products */,
 			);
@@ -53,9 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				0E2515C7293C0873005A5C4F /* DiffuserApp.swift */,
-				0E2515C9293C0873005A5C4F /* ContentView.swift */,
-				0E2515CB293C0874005A5C4F /* Assets.xcassets */,
+				0E99AF65293C0BB300A844FD /* UI */,
+				0E99AF51293C0A6000A844FD /* Services */,
 				0E2515CD293C0874005A5C4F /* Diffuser.entitlements */,
+				0E2515CB293C0874005A5C4F /* Assets.xcassets */,
 				0E2515CE293C0874005A5C4F /* Preview Content */,
 			);
 			path = Diffuser;
@@ -67,6 +97,52 @@
 				0E2515CF293C0874005A5C4F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E99AF51293C0A6000A844FD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0E99AF4F293C0A4F00A844FD /* ArticlesService.swift */,
+				0E99AF4D293C0A4300A844FD /* DiffusionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0E99AF56293C0B8800A844FD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0E99AF8B293C2AD900A844FD /* ArticlesList */,
+				0E99AF8A293C2ACC00A844FD /* ArticleDetails */,
+				0E99AF5E293C0B8800A844FD /* AppCore.swift */,
+				0E99AF57293C0B8800A844FD /* AppView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0E99AF65293C0BB300A844FD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0E99AF56293C0B8800A844FD /* App */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0E99AF8A293C2ACC00A844FD /* ArticleDetails */ = {
+			isa = PBXGroup;
+			children = (
+				0E99AF86293C2A8800A844FD /* ArticleDetailsCore.swift */,
+				0E99AF88293C2AC700A844FD /* ArticleDetailsView.swift */,
+			);
+			path = ArticleDetails;
+			sourceTree = "<group>";
+		};
+		0E99AF8B293C2AD900A844FD /* ArticlesList */ = {
+			isa = PBXGroup;
+			children = (
+				0E99AF82293C2A7000A844FD /* ArticlesListCore.swift */,
+				0E99AF84293C2A7F00A844FD /* ArticlesListView.swift */,
+			);
+			path = ArticlesList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +161,14 @@
 			dependencies = (
 			);
 			name = Diffuser;
+			packageProductDependencies = (
+				0E99AF46293C09FD00A844FD /* ComposableArchitecture */,
+				0E99AF48293C09FD00A844FD /* Dependencies */,
+				0E99AF4B293C0A2B00A844FD /* TwitterAPIKit */,
+				0E99AF9C293CB62D00A844FD /* Logging */,
+				0E25EBF1293F58FE009017B4 /* StableDiffusion */,
+				0EBE88E52945E715005E811C /* CachedAsyncImage */,
+			);
 			productName = Diffuser;
 			productReference = 0E2515C4293C0873005A5C4F /* Diffuser.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +197,13 @@
 				Base,
 			);
 			mainGroup = 0E2515BB293C0873005A5C4F;
+			packageReferences = (
+				0E99AF45293C09FD00A844FD /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				0E99AF4A293C0A2B00A844FD /* XCRemoteSwiftPackageReference "TwitterAPIKit" */,
+				0E99AF9B293CB62D00A844FD /* XCRemoteSwiftPackageReference "swift-log" */,
+				0E25EBF0293F58FE009017B4 /* XCRemoteSwiftPackageReference "ml-stable-diffusion" */,
+				0EBE88E42945E715005E811C /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+			);
 			productRefGroup = 0E2515C5293C0873005A5C4F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E33F6C4293D0BF6002F1177 /* MLModels in Resources */,
 				0E2515D0293C0874005A5C4F /* Preview Assets.xcassets in Resources */,
 				0E2515CC293C0874005A5C4F /* Assets.xcassets in Resources */,
 			);
@@ -139,7 +231,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E2515CA293C0873005A5C4F /* ContentView.swift in Sources */,
+				0E99AF4E293C0A4300A844FD /* DiffusionService.swift in Sources */,
+				0E99AF50293C0A4F00A844FD /* ArticlesService.swift in Sources */,
+				0E99AF89293C2AC700A844FD /* ArticleDetailsView.swift in Sources */,
+				0E99AF83293C2A7000A844FD /* ArticlesListCore.swift in Sources */,
+				0E99AF5F293C0B8800A844FD /* AppView.swift in Sources */,
+				0E99AF85293C2A7F00A844FD /* ArticlesListView.swift in Sources */,
+				0E99AF64293C0B8800A844FD /* AppCore.swift in Sources */,
+				0E99AF87293C2A8800A844FD /* ArticleDetailsCore.swift in Sources */,
 				0E2515C8293C0873005A5C4F /* DiffuserApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +453,82 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0E25EBF0293F58FE009017B4 /* XCRemoteSwiftPackageReference "ml-stable-diffusion" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/romanmazeev/ml-stable-diffusion.git";
+			requirement = {
+				kind = revision;
+				revision = 374e876ae7b86648bf4e99dfa5337d59e3e12b43;
+			};
+		};
+		0E99AF45293C09FD00A844FD /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.47.2;
+			};
+		};
+		0E99AF4A293C0A2B00A844FD /* XCRemoteSwiftPackageReference "TwitterAPIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mironal/TwitterAPIKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.3;
+			};
+		};
+		0E99AF9B293CB62D00A844FD /* XCRemoteSwiftPackageReference "swift-log" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-log.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		0EBE88E42945E715005E811C /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0E25EBF1293F58FE009017B4 /* StableDiffusion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E25EBF0293F58FE009017B4 /* XCRemoteSwiftPackageReference "ml-stable-diffusion" */;
+			productName = StableDiffusion;
+		};
+		0E99AF46293C09FD00A844FD /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E99AF45293C09FD00A844FD /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		0E99AF48293C09FD00A844FD /* Dependencies */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E99AF45293C09FD00A844FD /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = Dependencies;
+		};
+		0E99AF4B293C0A2B00A844FD /* TwitterAPIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E99AF4A293C0A2B00A844FD /* XCRemoteSwiftPackageReference "TwitterAPIKit" */;
+			productName = TwitterAPIKit;
+		};
+		0E99AF9C293CB62D00A844FD /* Logging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E99AF9B293CB62D00A844FD /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = Logging;
+		};
+		0EBE88E52945E715005E811C /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0EBE88E42945E715005E811C /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0E2515BC293C0873005A5C4F /* Project object */;
 }
